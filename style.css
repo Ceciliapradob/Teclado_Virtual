@@ -1,0 +1,69 @@
+/* Estilos globales */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #fff;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+/* Contenedor del teclado */
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Filas del teclado */
+.row {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+/* Estilo general para las teclas */
+.key {
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9em;
+    padding: 10px 15px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background 0.2s;
+}
+
+.key:hover {
+    background: #444;
+}
+
+/* Teclas especiales */
+.key.special {
+    background: #555;
+}
+
+.key.special:hover {
+    background: #666;
+}
+
+/* Tecla de espacio */
+.key.space {
+    flex: 1;
+    padding: 10px 80px;
+    background: #444;
+}
