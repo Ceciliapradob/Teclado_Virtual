@@ -1,69 +1,69 @@
 /* Estilos globales */
 body {
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-    background-color: #121212;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    color: #fff;
+    margin: 0; /* Elimina el margen predeterminado del navegador */
+    font-family: 'Arial', sans-serif; /* Establece la fuente principal para el texto */
+    background-color: #121212; /* Aplica un fondo oscuro a la página */
+    display: flex; /* Utiliza flexbox para organizar los elementos en el cuerpo */
+    flex-direction: column; /* Coloca los elementos en una columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente */
+    height: 100vh; /* Hace que el cuerpo ocupe el 100% de la altura de la ventana */
+    color: #fff; /* Establece el color del texto en blanco */
 }
 
 h1 {
-    margin-bottom: 20px;
-    font-size: 2em;
+    margin-bottom: 20px; /* Agrega espacio debajo del encabezado */
+    font-size: 2em; /* Define un tamaño de fuente mayor para el encabezado */
 }
 
 /* Contenedor del teclado */
 .keyboard {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    background: #1e1e1e;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    display: flex; /* Aplica flexbox para organizar los elementos dentro del teclado */
+    flex-direction: column; /* Alinea las filas del teclado en una columna */
+    gap: 10px; /* Agrega espacio entre las filas del teclado */
+    background: #1e1e1e; /* Establece un fondo oscuro para el teclado */
+    padding: 20px; /* Agrega espacio interno alrededor del teclado */
+    border-radius: 10px; /* Redondea las esquinas del teclado */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Agrega una sombra para dar efecto de elevación */
 }
 
 /* Filas del teclado */
 .row {
-    display: flex;
-    gap: 5px;
-    justify-content: center;
+    display: flex; /* Utiliza flexbox para organizar las teclas dentro de cada fila */
+    gap: 5px; /* Agrega espacio entre las teclas en una fila */
+    justify-content: center; /* Centra las teclas horizontalmente dentro de la fila */
 }
 
 /* Estilo general para las teclas */
 .key {
-    background: #333;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    font-size: 0.9em;
-    padding: 10px 15px;
-    text-align: center;
-    cursor: pointer;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    transition: background 0.2s;
+    background: #333; /* Establece un color de fondo oscuro para las teclas */
+    color: #fff; /* Define el color del texto de las teclas en blanco */
+    border: none; /* Elimina cualquier borde predeterminado */
+    border-radius: 5px; /* Redondea ligeramente las esquinas de las teclas */
+    font-size: 0.9em; /* Establece un tamaño de fuente moderado para el texto */
+    padding: 10px 15px; /* Agrega espacio interno en las teclas */
+    text-align: center; /* Centra el texto dentro de la tecla */
+    cursor: pointer; /* Cambia el cursor a una mano para indicar que es clickeable */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Agrega una sombra ligera para resaltar las teclas */
+    transition: background 0.2s; /* Agrega una transición suave para los cambios de fondo */
 }
 
 .key:hover {
-    background: #444;
+    background: #444; /* Cambia el fondo de la tecla al pasar el cursor por encima */
 }
 
 /* Teclas especiales */
 .key.special {
-    background: #555;
+    background: #555; /* Aplica un color de fondo más claro para teclas especiales */
 }
 
 .key.special:hover {
-    background: #666;
+    background: #666; /* Cambia el color de fondo al pasar el cursor por encima de teclas especiales */
 }
 
 /* Tecla de espacio */
 .key.space {
-    flex: 1;
-    padding: 10px 80px;
-    background: #444;
+    flex: 1; /* Hace que la tecla ocupe todo el espacio horizontal disponible */
+    padding: 10px 80px; /* Agrega espacio interno adicional para que sea más grande */
+    background: #444; /* Define un fondo para la tecla de espacio */
 }
