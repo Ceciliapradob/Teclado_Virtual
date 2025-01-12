@@ -9,7 +9,8 @@ Este proyecto es una representación estilizada y funcional de un teclado virtua
 - ¡Ideal para aprender y practicar diseño web!  
 
 ## 🖼 Vista previa
- [Captura de pantalla 2025-01-11 010215](https://github.com/user-attachments/assets/93b5c7bd-d35e-43a1-bcdf-4775838c9ef3)
+
+![Captura de pantalla 2025-01-11 010215](https://github.com/user-attachments/assets/c93b7213-0e7a-4a71-8332-472aac189534)
 
   
 ## 📹 Video explicativo
